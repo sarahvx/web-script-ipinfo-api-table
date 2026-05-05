@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #555;
+}
+
+.container {
+  width: 70%;
+  margin: 40px auto;
+  background: #eee;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.form-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+#inputIpAddress {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+#btnGetIp {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+#btnGetIp:hover {
+  background: #218838;
+}
+
+.tabela {
+  max-height: 58vh;
+  overflow-y: auto;
+  display: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  color: red;
+}
+
+.alert {
+  background: #ffc107;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
